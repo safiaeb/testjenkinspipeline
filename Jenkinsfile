@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Verify Branch'){
             steps{
-                echo 'We are on branch $GIT_BRANCH'
+                echo 'We are on branch $BRANCH_NAME'
             }
         }
     }
